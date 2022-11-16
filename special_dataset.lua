@@ -1,6 +1,3 @@
-local InventoryAPI = panorama.InventoryAPI
-
-
 local special_contents_list = {
 	--[[ CS:GO Weapon Case ]] 				[4001] = {
 		knives = { 
