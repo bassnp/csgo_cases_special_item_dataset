@@ -1,5 +1,3 @@
-local InventoryAPI = panorama.InventoryAPI
-
 local sets = {
     knife_1 = {"weapon_bayonet", "weapon_knife_flip", "weapon_knife_gut", "weapon_knife_karambit", "weapon_knife_m9_bayonet"},
     knife_2 = {"weapon_knife_survival_bowie", "weapon_knife_butterfly", "weapon_knife_falchion", "weapon_knife_tactical", "weapon_knife_push"},
