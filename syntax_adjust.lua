@@ -1,4 +1,4 @@
-GAY = { -- VALVE WHAT ARE YOU DOING?! 3 SKINS HAVE WEAPON SPECFIC SUB NAMES!
+valve_name = { -- VALVE WHAT ARE YOU DOING?! 3 SKINS HAVE WEAPON SPECFIC SUB NAMES!
 	weapon_bayonet = "bayonet",
 	weapon_knife_flip = "flip",
 	weapon_knife_gut = "gut",
@@ -51,10 +51,10 @@ sets = {
 	
     finish_3 = function(cname, knife_set_num) -- thx to some of the dumbest valve employees
 		return { 
-            "cu_".. GAY[cname] .."_lore", 
+            "cu_".. valve_name[cname] .."_lore", 
             "am_emerald_marbleized", "am_gamma_doppler_phase1", "am_gamma_doppler_phase2", "am_gamma_doppler_phase3", "am_gamma_doppler_phase4", 
-            "gs_".. GAY[cname] .."_autotronic", 
-            knife_set_num == 1 and "cu_".. GAY[cname] .."_stonewash" or "gs_".. GAY[cname] .."_black_laminate", 
+            "gs_".. valve_name[cname] .."_autotronic", 
+            knife_set_num == 1 and "cu_".. valve_name[cname] .."_stonewash" or "gs_".. valve_name[cname] .."_black_laminate", 
             (knife_set_num == 1 and cname ~= "weapon_knife_karambit" and cname ~= "weapon_knife_m9_bayonet") and "am_marked_up" or (cname == "weapon_knife_karambit" and "am_marked_up_fine" or "am_marked_up_90"), 
             (knife_set_num == 1 and cname ~= "weapon_knife_m9_bayonet") and "hy_ocean_knife" or "hy_ocean_knife_90",
         }
